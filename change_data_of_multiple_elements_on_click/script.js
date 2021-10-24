@@ -12,9 +12,10 @@ let onElementClick = (className) => {
     }
 };
 
-var span = document.getElementsByClassName("js");
+const span = document.getElementsByClassName("js");
 
-for (var i = 0; i < span.length; i++) {
+let element;
+for (let i = 0; i < span.length; i++) {
     element = span[i];
     onElementClick(element);
 }
